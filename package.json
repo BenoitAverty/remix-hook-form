@@ -1,0 +1,44 @@
+{
+  "files": [
+    "dist"
+  ],
+  "name": "remix-hook-form",
+  "version": "0.1.0",
+  "description": "react-hook-form, but with the Remix.run programming model",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "test-app:start": "remix dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/BenoitAverty/remix-hook-form"
+  },
+  "keywords": [
+    "remix",
+    "react",
+    "hook",
+    "form"
+  ],
+  "author": "Benoit Averty <benoit.averty@pm.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@remix-run/node": "^1.0.6",
+    "@remix-run/react": "^1.0.6",
+    "@types/react": "^17.0.37",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.20.4",
+    "typescript": "^4.5.2",
+    "zod": "^3.11.6",
+    "@remix-run/serve": "^1.0.6",
+    "@remix-run/dev": "^1.0.6"
+  },
+  "peerDependencies": {
+    "zod": "^3.11.6",
+    "@remix-run/react": "^1.0.6",
+    "react": "^17.0.2",
+    "react-hook-form": "^7.20.4"
+  }
+}
